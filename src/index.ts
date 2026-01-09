@@ -1,5 +1,5 @@
-import { logger } from './logger';
-import type { LoggerConfig } from './types';
+import { logger } from './logger.js';
+import type { LoggerConfig } from './types.js';
 
 /**
  * Dev-only logger with beautiful, colorful output
@@ -9,7 +9,7 @@ import type { LoggerConfig } from './types';
  * 
  * @example
  * ```ts
- * import log from '@rdrudra99/hardlog';
+ * import log from 'hardlog';
  * 
  * log.success('Server started successfully!');
  * log.error('Database connection failed');
@@ -20,7 +20,7 @@ import type { LoggerConfig } from './types';
  * @example
  * ```ts
  * // Configure logger
- * import log from '@rdrudra99/hardlog';
+ * import log from 'hardlog';
  * 
  * log.config({ enabled: true, showTimestamp: true });
  * ```

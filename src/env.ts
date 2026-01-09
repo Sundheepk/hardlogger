@@ -1,4 +1,4 @@
-import type { RuntimeEnvironment } from './types';
+import type { RuntimeEnvironment } from './types.js';
 
 /**
  * Safely detect if we're in a browser environment

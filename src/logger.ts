@@ -1,5 +1,5 @@
-import type { LoggerConfig, LogLevel, RuntimeEnvironment } from './types';
-import { detectEnvironment, shouldLogByDefault } from './env';
+import type { LoggerConfig, LogLevel, RuntimeEnvironment } from './types.js';
+import { detectEnvironment, shouldLogByDefault } from './env.js';
 
 /**
  * ANSI color codes for Node.js terminal
@@ -27,10 +27,10 @@ const BROWSER_STYLES = {
  * Log level symbols and labels
  */
 const LOG_CONFIG = {
-  success: { symbol: '✔', label: 'SUCCESS', color: ANSI_COLORS.green },
-  error: { symbol: '✖', label: 'ERROR', color: ANSI_COLORS.red },
+  success: { symbol: '✅', label: 'SUCCESS', color: ANSI_COLORS.green },
+  error: { symbol: '❌', label: 'ERROR', color: ANSI_COLORS.red },
   warn: { symbol: '⚠', label: 'WARNING', color: ANSI_COLORS.yellow },
-  info: { symbol: 'ℹ', label: 'INFO', color: ANSI_COLORS.blue },
+  info: { symbol: '💡', label: 'INFO', color: ANSI_COLORS.blue },
 } as const;
 
 /**
