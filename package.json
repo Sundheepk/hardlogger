@@ -1,6 +1,6 @@
 {
   "name": "@rdrudra99/hardlog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Beautiful, colorful dev-only logging for Node.js and Browser with zero configuration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
