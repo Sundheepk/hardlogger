@@ -1,8 +1,8 @@
-# @rdrudra99/hardlog
+# hardlogger
 
-[![npm version](https://img.shields.io/npm/v/@rdrudra99/hardlog.svg)](https://www.npmjs.com/package/@rdrudra99/hardlog)
-[![npm downloads](https://img.shields.io/npm/dm/@rdrudra99/hardlog.svg)](https://www.npmjs.com/package/@rdrudra99/hardlog)
-[![license](https://img.shields.io/npm/l/@rdrudra99/hardlog.svg)](https://github.com/Rdrudra99/hardlog/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/hardlogger.svg)](https://www.npmjs.com/package/hardlogger)
+[![npm downloads](https://img.shields.io/npm/dm/hardlogger.svg)](https://www.npmjs.com/package/hardlogger)
+[![license](https://img.shields.io/npm/l/hardlogger.svg)](https://github.com/Rdrudra99/hardlog/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
 Beautiful, colorful dev-only logging for Node.js and Browser with **zero configuration**.
@@ -16,25 +16,25 @@ Automatically detects your runtime environment and applies appropriate styling:
 ## Installation
 
 ```bash
-bun add @rdrudra99/hardlog
+bun add hardlogger
 ```
 
 ```bash
-npm install @rdrudra99/hardlog
+npm install hardlogger
 ```
 
 ```bash
-yarn add @rdrudra99/hardlog
+yarn add hardlogger
 ```
 
 ```bash
-pnpm add @rdrudra99/hardlog
+pnpm add hardlogger
 ```
 
 ## Basic Usage
 
 ```typescript
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 log.success('Server started successfully!');
 log.error('Database connection failed');
@@ -59,7 +59,7 @@ log.info('Listening on port 3000');
 
 ```typescript
 import express from 'express';
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 const app = express();
 const PORT = 3000;
@@ -78,7 +78,7 @@ app.listen(PORT, () => {
 
 ```typescript
 // app/page.tsx
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 export default async function HomePage() {
   // This runs on the server
@@ -97,7 +97,7 @@ export default async function HomePage() {
 'use client';
 
 import { useEffect } from 'react';
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 export default function ClientComponent() {
   useEffect(() => {
@@ -122,7 +122,7 @@ export default function ClientComponent() {
 ```typescript
 // pages/index.tsx
 import { GetServerSideProps } from 'next';
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 export const getServerSideProps: GetServerSideProps = async () => {
   log.info('Fetching data for page');
@@ -141,7 +141,7 @@ export default function Page({ data }) {
 ### Browser-Only App
 
 ```typescript
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 document.addEventListener('DOMContentLoaded', () => {
   log.success('DOM loaded');
@@ -205,7 +205,7 @@ log.config({
 #### Enable timestamps
 
 ```typescript
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 log.config({ showTimestamp: true });
 
@@ -216,7 +216,7 @@ log.info('Server started');
 #### Force enable in production (NOT RECOMMENDED)
 
 ```typescript
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 // ⚠️ Only do this if you understand the implications
 log.config({ enabled: true });
@@ -225,7 +225,7 @@ log.config({ enabled: true });
 #### Chain configuration
 
 ```typescript
-import log from '@rdrudra99/hardlog';
+import log from 'hardlogger';
 
 log
   .config({ showTimestamp: true })
@@ -282,7 +282,7 @@ log.config({ enabled: true });
 This package is written in TypeScript and ships with type definitions.
 
 ```typescript
-import log, { LoggerConfig } from '@rdrudra99/hardlog';
+import log, { LoggerConfig } from 'hardlogger';
 
 const config: LoggerConfig = {
   enabled: true,
@@ -333,7 +333,7 @@ Most logging libraries are either:
 - Require configuration
 - Not production-safe by default
 
-`@rdrudra99/hardlog` is designed specifically for the **developer experience** during development, with:
+`hardlogger` is designed specifically for the **developer experience** during development, with:
 - Automatic environment detection
 - Zero configuration
 - Production safety built-in

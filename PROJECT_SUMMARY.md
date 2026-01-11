@@ -2,7 +2,7 @@
 
 ## 📦 Package Information
 - **Name**: @rdrudra99/hardlog
-- **Version**: 0.1.0
+- **Version**: 0.1.4
 - **Type**: Dev-only logging library
 - **License**: MIT
 - **Author**: Rdrudra99
