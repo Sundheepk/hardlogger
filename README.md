@@ -50,8 +50,28 @@ log.info('Listening on port 3000');
 ℹ INFO       Listening on port 3000
 ```
 
-### Output in Browser DevTools
-![Browser console with styled log messages](https://via.placeholder.com/800x200.png?text=Styled+Console+Messages)
+## 🧪 Before vs After
+
+### 🖥️ Backend (Node.js / Express)
+
+**Before**
+![Plain node logs](https://via.placeholder.com/800x200.png?text=Plain+Node.js+Logs)
+
+**Before**<img width="1154" height="674" alt="screenzy-1768106259246" src="https://github.com/user-attachments/assets/1df6ed28-dc95-4be2-816f-7ef16ee035ac" />
+**After**<img width="1154" height="674" alt="screenzy-1768106238474" src="https://github.com/user-attachments/assets/38ec2961-0d03-48a3-986d-dae1645fac39" />
+
+
+
+### 🌐 Frontend (React / Next.js)
+
+**Before**
+![Plain browser console](https://via.placeholder.com/800x200.png?text=Plain+console.log)
+
+**After**
+![Styled browser console](https://via.placeholder.com/800x200.png?text=Styled+Browser+Logs)
+
+
+
 
 ## Examples
 
