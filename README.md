@@ -54,21 +54,14 @@ log.info('Listening on port 3000');
 
 ### 🖥️ Backend (Node.js / Express)
 
-**Before**
-![Plain node logs](https://via.placeholder.com/800x200.png?text=Plain+Node.js+Logs)
+**After**<img width="1154" height="674" alt="screenzy-1768108979808" src="https://github.com/user-attachments/assets/855695c4-4722-41f2-a735-951ffcf2b0f8" />
 
-**Before**<img width="1154" height="674" alt="screenzy-1768106259246" src="https://github.com/user-attachments/assets/1df6ed28-dc95-4be2-816f-7ef16ee035ac" />
-**After**<img width="1154" height="674" alt="screenzy-1768106238474" src="https://github.com/user-attachments/assets/38ec2961-0d03-48a3-986d-dae1645fac39" />
 
 
 
 ### 🌐 Frontend (React / Next.js)
 
-**Before**
-![Plain browser console](https://via.placeholder.com/800x200.png?text=Plain+console.log)
-
-**After**
-![Styled browser console](https://via.placeholder.com/800x200.png?text=Styled+Browser+Logs)
+<img width="1000" height="504" alt="screenzy-1768108932436" src="https://github.com/user-attachments/assets/8934cfeb-068a-4ee5-a5b6-aff28204f009" />
 
 
 
