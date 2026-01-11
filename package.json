@@ -43,12 +43,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rdrudra99/hardlog.git"
+    "url": "git+https://github.com/Rdrudra99/hardlogger.git"
   },
   "bugs": {
-    "url": "https://github.com/Rdrudra99/hardlog/issues"
+    "url": "https://github.com/Rdrudra99/hardlogger/issues"
   },
-  "homepage": "https://github.com/Rdrudra99/hardlog#readme",
+  "homepage": "https://github.com/Rdrudra99/hardlogger#readme",
   "devDependencies": {
     "@types/node": "^25.0.3",
     "typescript": "^5.3.3"
